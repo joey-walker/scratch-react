@@ -1,3 +1,6 @@
+//move this to webpack loader
+require("file-loader?name=[name].[ext]!../public/index.html");
+
 import React from 'react';
 import {render} from 'react-dom';
 import ScratchComponent from './scratchComponent.jsx';

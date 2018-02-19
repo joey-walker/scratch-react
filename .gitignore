@@ -157,4 +157,5 @@ typings/
 # next.js build output
 .next
 dist/
+public/*.js
 .idea/

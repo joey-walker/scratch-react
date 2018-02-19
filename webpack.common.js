@@ -9,7 +9,7 @@ module.exports = {
         app: SRC_DIR + '/index.jsx'
     },
     plugins: [
-        new CleanWebpackPlugin(['dist']),
+        new CleanWebpackPlugin(['dist','public/app.bundle.js']),
         new YarnAddWebpackPlugin({
             dev: false
         })
